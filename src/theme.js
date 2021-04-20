@@ -72,6 +72,8 @@ export const theme = createMuiTheme({
 
         'body, #root': {
           height: '100%',
+          width: '100vw',
+          overflowX: 'hidden',
           minHeight: '100vh',
           fontSize: 14,
           backgroundColor: '#121212;',
