@@ -157,7 +157,7 @@ export const MeteoriteTable = () => {
   }
 
   return (
-    <Box py={2} flex="1">
+    <Box py={2} px={2} flex="1">
       <Table className={classes.table} size="small">
         <EnhancedTableHead
           classes={classes}

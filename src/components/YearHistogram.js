@@ -74,7 +74,7 @@ export const YearHistogram = ({ onClickBar = () => {} }) => {
   }, [year])
 
   return (
-    <Box height="140px" width="100%">
+    <Box height="140px" width="100%" px={2}>
       <ReactEcharts
         ref={chartRef}
         option={{
